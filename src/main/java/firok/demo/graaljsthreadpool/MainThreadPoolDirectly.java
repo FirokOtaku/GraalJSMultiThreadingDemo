@@ -4,9 +4,10 @@ import org.graalvm.polyglot.Context;
 import org.graalvm.polyglot.Source;
 import org.intellij.lang.annotations.Language;
 
-import java.util.concurrent.Executors;
-
-public class Main
+/**
+ * create Thread Pool and submit task on it directly
+ * */
+public class MainThreadPoolDirectly
 {
     public static void main(String[] args)
     {
